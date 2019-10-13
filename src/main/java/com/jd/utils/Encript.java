@@ -11,7 +11,7 @@ public class Encript {
     }
 
     /**
-     * 验证输入的密码是否正确
+     * 	验证输入的密码是否正确
      * @param password 真正的密码（加密后的真密码）
      * @param inputString 输入的字符串
      * @return 验证结果，boolean类型
@@ -43,7 +43,7 @@ public class Encript {
     }
 
     /**
-     * 轮换字节数组为十六进制字符串
+     * 	轮换字节数组为十六进制字符串
      * @param b 字节数组
      * @return 十六进制字符串
      */
