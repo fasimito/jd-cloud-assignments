@@ -5,9 +5,9 @@
 version: '2'
 
 services:
-  aws-assignments:
-    image: aws-assignments
+  jd-assignments:
+    image: jd-assignments
     restart: always
-    container_name: aws-assignments
+    container_name: jd-assignments
     ports:
-      - 9090:9090
+      - 8080:8080
