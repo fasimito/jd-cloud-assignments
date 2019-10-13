@@ -1,0 +1,13 @@
+#
+# Author: Xupeng.Ma
+#
+
+version: '2'
+
+services:
+  aws-assignments:
+    image: aws-assignments
+    restart: always
+    container_name: aws-assignments
+    ports:
+      - 9090:9090
